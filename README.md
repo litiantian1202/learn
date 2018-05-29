@@ -8,8 +8,6 @@
 
 ### HTML
 
-**DOM节点** - <html>, <body>, <div>, <p>, <h1>, <span>, <litiantian>
-
 **样式分三种形式**
 
 1. 文件引用形式。通过<link href="xxx.css">来引用。
