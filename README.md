@@ -6,7 +6,7 @@
 * CSS (样式控制)
 * Javascript (逻辑控制)
 
-### HTML
+### CSS
 
 **样式分三种形式**
 
@@ -16,6 +16,16 @@
 
 通过 !important 可以改变优先级。
 
-### 浏览器差异
+id -- 唯一
+class -- 不唯一
+
+#### 浏览器差异
 
 使用normalize.css，reset.css进行样式统一和重置。
+
+### Javascript
+
+引用方式：
+
+1. 文件引用。通过script标签引入。
+2. html文件内写在script标签内。

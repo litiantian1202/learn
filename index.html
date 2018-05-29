@@ -16,6 +16,15 @@
     </style>
   </head>
   <body style="background-color: yellow;">
-    <div class="container"></div>
+    <div id="container" class="container"></div>
   </body>
+  <script src="./script.js"></script>
+  <script>
+    window.addEventListener('load', function() {
+      var ele = document.getElementById('container');
+      setInterval(function() {
+        ele.style.width = ele.style.width === '100px' ? '500px' : '100px';
+      }, 500);
+    });
+  </script>
 </html>
